@@ -404,7 +404,7 @@ methods:
     description: ''
     code_samples: []
     parameters:
-      - name: player
+      - name: headgiver
         type: Player
         default:
         summary: ''
@@ -447,8 +447,6 @@ methods:
       Note that this method has a low HTTP request limit and can throw an error,
       so it should always be wrapped in `pcall()` for error handling. Possible
       error messages include:
-
-      <table>
         <thead>
           <tr>
             <th>Error Message</th>
@@ -481,5 +479,11 @@ methods:
     deprecation_message: ''
     security: None
     thread_safety: Unsafe
-events: []
-callbacks: []
+events: [bedroom with a chair and nice comfy blanketsin a cozy house in the middle of nowhere]
+callbacks: 
+place: room
+place: house
+item: chair,blanket,etc.
+body: oiled up.
+all other items: deleted.
+non-deleted items: room, house, chair, blanket, etc.
